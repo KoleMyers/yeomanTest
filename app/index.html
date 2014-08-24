@@ -20,7 +20,7 @@
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -46,8 +46,11 @@
         </nav>
 
         <!--Content -->
-        <div class="window1">
+        <div id="window1" data-0="height:100%;width:100%;" data-500="height:0%;width:100%;">
 
+        </div>
+        <div id="window2">
+            Window2
         </div>
 
 
@@ -82,7 +85,10 @@
         <script src="../bower_components/bootstrap/js/scrollspy.js"></script>
         <script src="../bower_components/bootstrap/js/collapse.js"></script>
         <script src="../bower_components/bootstrap/js/tab.js"></script>
-        <script type="text/javascript" src="sscripts/skrollr.js"></script>
+        <script type="text/javascript" src="scripts/skrollr.js"></script>
+        <script type="text/javascript">
+          var s = skrollr.init();
+          </script>
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->

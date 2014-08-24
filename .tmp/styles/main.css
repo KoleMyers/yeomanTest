@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: white;
 }
+body {overflow:auto; height:7600px; }
 /* navbar */
 #brand {
   color: white;
@@ -33,9 +34,16 @@ body {
 
 
 /*content */
-.window1 {
-  position: relative;
+#window1 {
   width: 100%;
   height: 100vh;
-  background-color:#921a38;
+  background-image: url(../images/startrails.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#window2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/maxresdefault.jpg);
+  background-size: contain;
 }
