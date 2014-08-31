@@ -20,43 +20,51 @@
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a id="brand" class="navbar-brand" href="#">Test</a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul id="navButtons" class="nav navbar-nav navbar-right">
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Upgrade</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a id="downloadBtn" href="#">Download This</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
 
         <!--Content -->
-        <div id="window1" data-0="height:100%;width:100%;" data-500="height:0%;width:100%;">
+        <div id="container">
+          <div id="slide-1" class="slide">
+              <div class="bcg"
+                  data-center="background-position: 50% 0px;"
+                  data-top-bottom="background-position: 50% -100px;"
+                  data-anchor-target="#slide-1"
+              >
+                  <div class="hsContent"
+                      data-center="opacity: 1"
+                      data-106-top="opacity: 0"
+                      data-anchor-target="#slide-1 h2"
+                  >
+                      <h2>Fade out elements before <br>they leave viewport</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="textBreak" id="break1"
+            data-0="background-color:rgb(1,27,59);"
+            data-top="background-color:(0,0,0);"
+            data-anchor-target="#break1"
+          >
+              <h2>Some Informative Text <br> more information</h2>
+          </div>
+          <div id="slide-2" class="slide">
+              <div class="bcg"
+                data-center="background-position: 50% 0px;"
+                data-top-bottom="background-position: 50% -100px;"
+                data-bottom-top="background-position: 50% 100px;"
+                data-anchor-target="#slide-2"
+              >
+                  <div class="hsContent"
 
-        </div>
-        <div id="window2">
-            Window2
-        </div>
+                  >
+                      <h2>Fade out elements before <br>they leave viewport</h2>
+                  </div>
+              </div>
+          </div>
+      </div>
 
-
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="../bower_components/jquery/dist/jquery.js"></script>
+          <!-- build:js scripts/vendor.js -->
+          <!-- bower:js -->
+          <script src="../bower_components/jquery/dist/jquery.js"></script>
         <script src="../bower_components/angular/angular.js"></script>
 
         <!-- endbower -->

@@ -1,10 +1,6 @@
 
-body {
-    margin: 0;
-    background-color: white;
-}
-body {overflow:auto; height:7600px; }
-/* navbar */
+
+/* navbar
 #brand {
   color: white;
 }
@@ -30,20 +26,62 @@ body {overflow:auto; height:7600px; }
   background-color: #96d600;
 }
 
+*/
+/*Image Slides and container styles */
+body, html {
 
-
-
-/*content */
-#window1 {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../images/startrails.jpeg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
-#window2 {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../images/maxresdefault.jpg);
-  background-size: contain;
+#container {
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.slide {
+	height:100vh;
+	width:100%;
+	position:relative;
+}
+#slide-1{
+	width:100%;
+	height:100%;
+}
+.bcg {
+	width:100%;
+	height:100%;
+	background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*content */
+
+.hsContent {
+	left: 50%;
+	top: 50%;
+	height:20%;
+	width:50%;
+	position:absolute;
+}
+.hsContent h2 {
+  color: #fff8de;
+	padding: 10px 5px;
+	font-size: 35px;
+	line-height: 38px;
+	margin-bottom: 12px;
+}
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('../images/startrails.jpeg')}
+#slide-2 .bcg {background-image:url('../images/maxresdefault.jpg')}
+
+/* Text Break styles */
+.textBreak {
+		margin:0;
+		width: 100%;
+		background: none;
+    height: 300px;
+    text-align: center
+}
+.textBreak h2 {
+	top:120px;
 }
