@@ -28,6 +28,13 @@
 
 */
 /*Image Slides and container styles */
+.navigation {
+  opacity: .8;
+  margin:0;
+  padding: 0;
+  border-style: none;
+
+}
 body, html {
 height: 100%;
 min-height: 100%;
@@ -56,7 +63,7 @@ background-color: #000000;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-    width: 100%;
+    width: 125%;
 }
 
 #slide-1 .bcg {background-image:url('../images/7439.jpg')}

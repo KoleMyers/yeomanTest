@@ -17,6 +17,39 @@
         <!-- endbuild -->
     </head>
     <body>
+
+      <!--Bootstrap Navbar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top navigation" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Lost in Translation</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -26,14 +59,14 @@
         <!-- HTML -->
         <section id="slide-1" class="homeSlide">
             <div class="bcg"
-                data-center="background-position: 50% 0px;"
-                data-top-bottom="background-position: 50% -75px;"
+                data-center="background-position: 0px 0px;"
+                data-top-bottom="background-position: 20px -125px;"
                 data-anchor-target="#slide-1"
             >
                 <div class="hsContainer">
                     <div class="hsContent1"
                         data-center="opacity: 1"
-                        data-50-top="opacity: 0"
+                        data-100-top="opacity: 0"
                         data-anchor-target="#slide-1 h2"
                     >
                         <h2>Lost in Translation</h2>
@@ -41,9 +74,10 @@
                 </div>
             </div>
         </section>
+
         <section id="slide-2">
-          <div class="bcg"
-            data-0="background-color:rgb(158,154,28);"
+          <div class="bcg bcg2"
+            data-0="background-color:rgb(45,140,150);"
             data-top="background-color:(0,0,0);"
             data-anchor-target="#slide-2"
           >
@@ -53,7 +87,7 @@
                           data--100-bottom="opacity: 0"
                           data-center="opacity: 1"
                           data-250-top="opacity: 1"
-                          data-75-top="opacity: 0"
+                          data-100-top="opacity: 0"
                           data-anchor-target="#slide-2 h2"
                       >
                           Starring Bill Murray and Scarlett Johansson
@@ -62,11 +96,12 @@
               </div>
           </div>
       </section>
+
       <section id="slide-3" class="homeSlide">
           <div class="bcg"
               data-center="background-position: 0px 50%;"
               data-bottom-top="background-position: 0px 40%;"
-              data-top-bottom="background-position: -40px 50%;"
+              data-top-bottom="background-position: -60px 50%;"
               data-anchor-target="#slide-3"
           >
               <div class="hsContainer">
@@ -85,7 +120,7 @@
 
           <!-- build:js scripts/vendor.js -->
           <!-- bower:js -->
-          <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
         <script src="../bower_components/angular/angular.js"></script>
 
         <!-- endbower -->
