@@ -57,6 +57,7 @@
 
         <!--Content -->
         <!-- HTML -->
+
         <section id="slide-1" class="homeSlide">
             <div class="bcg"
                 data-center="background-position: 0px 0px;"
@@ -64,12 +65,12 @@
                 data-anchor-target="#slide-1"
             >
                 <div class="hsContainer">
-                    <div class="hsContent1"
+                    <div class="hsContent"
                         data-center="opacity: 1"
                         data-100-top="opacity: 0"
                         data-anchor-target="#slide-1 h2"
                     >
-                        <h2>Lost in Translation</h2>
+                        <h2>Everyone wants to be found.</h2>
                     </div>
                 </div>
             </div>
@@ -86,11 +87,10 @@
                       <h2
                           data--100-bottom="opacity: 0"
                           data-center="opacity: 1"
-                          data-250-top="opacity: 1"
-                          data-100-top="opacity: 0"
+                          data-130-top="opacity: 0"
                           data-anchor-target="#slide-2 h2"
                       >
-                          Starring Bill Murray and Scarlett Johansson
+                          Bill Murray & Scarlett Johansson
                       </h2>
                   </div>
               </div>
@@ -99,22 +99,29 @@
 
       <section id="slide-3" class="homeSlide">
           <div class="bcg"
-              data-center="background-position: 0px 50%;"
               data-bottom-top="background-position: 0px 40%;"
-              data-top-bottom="background-position: -60px 50%;"
+              data-top-bottom="background-position: -40px 50%;"
               data-anchor-target="#slide-3"
           >
               <div class="hsContainer">
                   <div class="hsContent"
-                      data--100-bottom="opacity: 0"
-                      data-center="opacity: 1"
-                      data-250-top="opacity: 1"
+                      data-bottom="opacity: 0"
+                      data--75-bottom="opacity: 1"
+                      data-300-top="opacity: 1"
                       data-75-top="opacity: 0"
                       data-anchor-target="#slide-3 h2"
                   >
                       <h2>Coming October, 2003</h2>
                   </div>
               </div>
+          </div>
+      </section>
+      <section id="slide-4" class="homeSlide">
+          <div class="bcg"
+              data-bottom-top="background-position: 0px 40%;"
+              data-end-top="background-position: 0px 50%;"
+              data-anchor-target="#slide-4"
+          >
           </div>
       </section>
 
@@ -151,7 +158,8 @@
         <script src="../bower_components/bootstrap/js/tab.js"></script>
         <script type="text/javascript" src="scripts/skrollr.js"></script>
         <script type="text/javascript">
-          var s = skrollr.init();
+          skrollr.init({
+        });
           </script>
         <!-- endbuild -->
 

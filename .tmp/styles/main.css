@@ -1,33 +1,5 @@
 
 
-/* navbar
-#brand {
-  color: white;
-}
-.navbar {
-  background-color: #2e2f33;
-  height: 65px;
-  margin: 0;
-  border-style: none;
-  border-radius: 0;
-}
-#navButtons li a {
-  font-family: "proxima_nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  color: white;
-}
-#downloadBtn {
-  margin-right: 100px;
-  margin-top: 10px;
-  border-radius: 15px;
-  text-align: center;
-  height:40px;
-  width:224px;
-  background-color: #96d600;
-}
-
-*/
-/*Image Slides and container styles */
 .navigation {
   opacity: .8;
   margin:0;
@@ -47,8 +19,8 @@ background-color: #000000;
     height: 100%;
     overflow: hidden;
     position: relative;
-		padding-left:100px;
-		padding-top: 300px;
+		padding-left:50px;
+		padding-top: 550px;
 }
 .hsContent {
     color: #DEE3E3;
@@ -67,10 +39,9 @@ background-color: #000000;
 }
 
 #slide-1 .bcg {background-image:url('../images/7439.jpg')}
-
 #slide-3 .bcg {background-image:url('../images/charlotte-lost-in-translation-movie-hd-wallpaper-1920x1080-2461.jpg')}
+#slide-4 .bcg {background-image:url('../images/focus.jpg')}
 
-/* Text Break styles */
 #slide-2 .bcg {
     background: none;
     background-color: #f0f0f0;
@@ -82,6 +53,6 @@ background-color: #000000;
 		height: 100%;
 		overflow: hidden;
 		position: relative;
-		padding-left:200px;
+		padding-left:250px;
 		padding-top: 100px;
 }
